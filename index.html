@@ -170,6 +170,9 @@ section .wrap{padding-block:4rem}
 .pack .price small{font-family:var(--body);font-size:.9rem;font-weight:500;color:var(--muted)}
 .pack ul{margin:0;padding-left:1.1rem;display:grid;gap:.35rem;font-size:.95rem}
 @media(max-width:820px){.packs{grid-template-columns:1fr}}
+.addon{margin-top:1.25rem;border:1px solid var(--line);border-radius:14px;padding:1.5rem;background:var(--accent-soft);display:grid;grid-template-columns:1fr auto;gap:1.5rem;align-items:center}
+.addon h3{margin:.4rem 0 .5rem}.addon .addon-price{display:grid;gap:.35rem;justify-items:end;text-align:right;white-space:nowrap}
+@media(max-width:820px){.addon{grid-template-columns:1fr}.addon .addon-price{justify-items:start;text-align:left;white-space:normal}}
 .tablewrap{overflow-x:auto;margin-top:2rem;border:1px solid var(--line);border-radius:14px;background:var(--panel)}
 table{border-collapse:collapse;width:100%;min-width:640px;font-size:.95rem}
 th,td{text-align:left;padding:.8rem 1rem;border-bottom:1px solid var(--line);vertical-align:top}
@@ -394,7 +397,7 @@ section .wrap{padding-block:5rem}.sec-head{max-width:780px;margin-bottom:2.75rem
       <h3>Website</h3>
       <div class="for">For businesses that need to be found and contacted</div>
       <div class="price">R 8,500 <small>once</small></div>
-      <ul><li>One-page or small multi-page site</li><li>Your services, prices, photos, location</li><li>WhatsApp button and enquiry form</li><li>Fast on mobile, listed on Google</li><li>Domain and hosting set up in your name</li></ul>
+      <ul><li>One-page or small multi-page site</li><li>Your services, prices, photos, location</li><li>Your existing photos edited: light, colour, crop, straightened</li><li>WhatsApp button and enquiry form</li><li>Fast on mobile, listed on Google</li><li>Domain and hosting set up in your name</li></ul>
     </div>
     <div class="pack hi"><span class="recommended">Most chosen</span>
       <h3>Website + bookings or orders</h3>
@@ -408,6 +411,14 @@ section .wrap{padding-block:5rem}.sec-head{max-width:780px;margin-bottom:2.75rem
       <div class="price">R 3,500 <small>per month</small></div>
       <ul><li>Instagram and Facebook set up and posted for you</li><li>Reply templates for enquiries and reviews</li><li>Site updates: prices, photos, specials</li><li>Monthly report: visits, enquiries, bookings</li><li>Cancel any month</li></ul>
     </div>
+  </div>
+  <div class="addon">
+    <div>
+      <div class="eyebrow">Add-on</div>
+      <h3>Photo shoot at your place</h3>
+      <p class="muted">Most sites fail on the photos, not the words. Every package includes editing the photos you already have. If they are too dark, too few or no longer true to the place, our photographer comes to you: half a day in and around Cape Town, 30 edited photos delivered within 48 hours, yours to use on Booking.com, Google and social media as well.</p>
+    </div>
+    <div class="addon-price"><div class="price">R 3,900 <small>half day</small></div><small class="muted">Full day R 6,500 · drone shots on request</small></div>
   </div>
   <div class="tablewrap">
     <table>
