@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://opensign.co.za/sitemap.xml
