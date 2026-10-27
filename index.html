@@ -1,11 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Open Sign builds websites, booking systems and social media for Cape Town guesthouses, restaurants, hire companies and small businesses. Free mockup first, live in 7 days.">
 <title>Open Sign</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Figtree:wght@400;500;600&display=swap">
 <style>
 /* Layout: 1080px measure; hero with a before/after phone illustration; sector grid; browser-framed portfolio; day-by-day process; generic packages + per-trade table; one ink band for the guesthouse example; FAQ; contact. */
@@ -60,9 +59,9 @@ header .wrap{display:flex;justify-content:space-between;align-items:center;paddi
 .hero .eyebrow{color:var(--neon)}
 .hero .lead,.hero .cta small{color:var(--ink-muted)}
 .hero .btn{border-color:var(--ink-fg);color:var(--ink-fg)}
-.hero .btn.primary{background:var(--neon);border-color:var(--neon);color:#07131c}
+.hero .btn.primary{background:var(--neon);border-color:var(--neon);color:var(--device-dark)}
 .sign{display:inline-grid;justify-items:center;gap:.35rem;padding:1.1rem 1.6rem;border:3px solid var(--neon);border-radius:18px;box-shadow:0 0 14px var(--neon-glow),0 0 40px var(--neon-glow),inset 0 0 14px var(--neon-glow);margin-bottom:1.5rem;max-width:100%}
-.sign b{font-family:var(--display);font-weight:800;font-size:clamp(2.6rem,7vw,4rem);letter-spacing:.18em;line-height:1;color:#fff;text-shadow:0 0 6px #fff,0 0 14px var(--neon),0 0 36px var(--neon)}
+.sign b{font-family:var(--display);font-weight:800;font-size:clamp(2.6rem,7vw,4rem);letter-spacing:.18em;line-height:1;color:var(--sign-core);text-shadow:0 0 6px var(--sign-core),0 0 14px var(--neon),0 0 36px var(--neon)}
 .sign small{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--neon);text-shadow:0 0 8px var(--neon-glow)}
 @media (prefers-reduced-motion:no-preference){
   .sign{animation:hum 4s ease-in-out infinite}
@@ -70,9 +69,9 @@ header .wrap{display:flex;justify-content:space-between;align-items:center;paddi
 }
 .hero .phone .tag{color:var(--ink-muted)}
 .hero .phone .tag.on{color:var(--neon)}
-.hero .screen{border-color:#2a3a4c}
-.hero .screen.before{border-color:#223040}
-.hero .screen .btnx{background:var(--neon);color:#07131c}
+.hero .screen{border-color:var(--device-edge)}
+.hero .screen.before{border-color:var(--device-edge)}
+.hero .screen .btnx{background:var(--neon);color:var(--device-dark)}
 nav{display:flex;gap:1.25rem;font-size:.95rem;align-items:center}
 nav a{text-decoration:none;color:var(--muted)}
 nav a.btn{color:var(--accent-fg);padding:.5rem 1rem;font-size:.9rem}
@@ -95,7 +94,7 @@ nav a.btn{color:var(--accent-fg);padding:.5rem 1rem;font-size:.9rem}
 .screen .bar.short{width:55%}
 .screen .bar.mid{width:75%}
 .screen .img{border-radius:8px;background:linear-gradient(135deg,var(--accent-soft),var(--line));aspect-ratio:4/3}
-.screen .img.sea{background:linear-gradient(160deg,#9fd3c7,#1c6f8a)}
+.screen .img.sea{background:var(--accent-soft)}
 .screen .post{display:grid;grid-template-columns:1.6rem 1fr;gap:.4rem;align-items:center}
 .screen .post i{width:1.6rem;height:1.6rem;border-radius:50%;background:var(--line);display:block}
 .screen .btnx{margin-top:.2rem;height:2rem;border-radius:999px;background:var(--accent);color:var(--accent-fg);font-size:.72rem;font-weight:700;display:flex;align-items:center;justify-content:center}
@@ -135,12 +134,12 @@ section .wrap{padding-block:4rem}
 .frame .chrome span{margin-left:.4rem;font-size:.7rem;color:var(--muted);background:var(--panel);border-radius:4px;padding:.1rem .5rem;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .frame .shot{aspect-ratio:16/10;display:grid;grid-template-rows:1fr auto;padding:.8rem;gap:.5rem}
 .frame .shot .hero-img{border-radius:6px}
-.frame .shot .cap{font-family:var(--display);font-weight:800;font-size:1rem;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.4);align-self:end;padding:.4rem}
-.shot.sea{background:linear-gradient(160deg,#8fd0c3 0%,#1c6f8a 70%,#0f2238 100%)}
-.shot.sun{background:linear-gradient(160deg,#f3c58c 0%,#c9643a 60%,#4a2a2a 100%)}
-.shot.pool{background:linear-gradient(160deg,#bfe6ef 0%,#2a8fb0 65%,#123b4d 100%)}
-.shot.wood{background:linear-gradient(160deg,#e9d8bd 0%,#9b6b3f 65%,#3e2a1c 100%)}
-.shot.home{background:linear-gradient(160deg,#dfe7d5 0%,#6e8c5a 65%,#2f3f2a 100%)}
+.frame .shot .cap{font-family:var(--display);font-weight:800;font-size:1rem;color:var(--sign-core);text-shadow:0 1px 2px var(--photo-shade);align-self:end;padding:.4rem}
+
+
+
+
+
 .case .body{padding:1.1rem 1.25rem 1.25rem;display:grid;gap:.4rem}
 .case h3{font-size:1.05rem}
 .case .where{font-size:.85rem;color:var(--muted)}
@@ -186,8 +185,8 @@ td:first-child{font-weight:600;white-space:nowrap}
 .calc{display:grid;gap:1rem}
 .field{display:grid;gap:.35rem}
 .field label{font-size:.9rem;color:var(--ink-muted)}
-.field input{font:inherit;font-variant-numeric:tabular-nums;padding:.65rem .8rem;border-radius:8px;border:1px solid #2c3f55;background:#0b1826;color:var(--ink-fg);width:100%}
-.result{border-top:1px solid #2c3f55;padding-top:1.25rem;display:grid;gap:.4rem;margin-top:.5rem}
+.field input{font:inherit;font-variant-numeric:tabular-nums;padding:.65rem .8rem;border-radius:8px;border:1px solid var(--field-edge);background:var(--field-bg);color:var(--ink-fg);width:100%}
+.result{border-top:1px solid var(--field-edge);padding-top:1.25rem;display:grid;gap:.4rem;margin-top:.5rem}
 .result b{font-family:var(--display);font-size:clamp(2.2rem,5vw,3.4rem);color:var(--gold);font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
 .result small{color:var(--ink-muted)}
 @media(max-width:760px){.band .wrap{grid-template-columns:1fr}}
@@ -210,6 +209,36 @@ details p{padding-bottom:1rem;color:var(--muted)}
 footer .wrap{padding-block:2rem;color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
 </style>
 <style>img{max-width:100%} [hidden]{display:none!important}</style>
+<style>
+/* Open Sign visual portfolio enhancement — real client-project photography. */
+:root{--shadow:rgba(16,28,43,.12);--glass:rgba(238,242,238,.08);--photo-shade:rgba(6,13,21,.65);--sign-core:#effffb;--device-edge:#2a3a4c;--device-dark:#07131c;--field-edge:#2c3f55;--field-bg:#0b1826}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--shadow:rgba(0,0,0,.3);--glass:rgba(238,242,238,.08);--photo-shade:rgba(6,13,21,.65);--sign-core:#effffb;--device-edge:#2a3a4c;--device-dark:#07131c;--field-edge:#2c3f55;--field-bg:#0b1826}}
+:root[data-theme="dark"]{--shadow:rgba(0,0,0,.3);--glass:rgba(238,242,238,.08);--photo-shade:rgba(6,13,21,.65);--sign-core:#effffb;--device-edge:#2a3a4c;--device-dark:#07131c;--field-edge:#2c3f55;--field-bg:#0b1826}
+html{scroll-padding-top:90px}a:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
+.wrap{max-width:1200px}.hero .wrap{grid-template-columns:1fr 1fr;gap:3.5rem;padding-block:4rem}
+.hero .lead{font-size:1.08rem;line-height:1.7}.hero .cta small{color:var(--ink-muted);max-width:32ch}
+.hero .btn.primary,.hero .screen .btnx{background:var(--accent);border-color:var(--accent);color:var(--accent-fg)}
+.hero .eyebrow,.hero .phone .tag.on{color:var(--ink-fg)}
+.hero-visual{min-width:0;display:grid;gap:1.5rem}.project-preview{display:grid;grid-template-columns:1.25fr 1fr;gap:10px}
+.project-preview a{position:relative;display:block;min-width:0;overflow:hidden;border-radius:12px;background:var(--glass);border:1px solid var(--device-edge)}
+.project-preview a:first-child{grid-column:1/-1;aspect-ratio:1.8}.project-preview a:not(:first-child){aspect-ratio:1.6}
+.project-preview img{display:block;width:100%;height:100%;object-fit:cover}
+.project-preview span{position:absolute;inset:auto 0 0;padding:2rem .85rem .7rem;background:linear-gradient(transparent,var(--photo-shade));color:var(--ink-fg);font-size:.8rem;font-weight:600}
+.sign{position:relative;background:var(--glass);padding:1rem 1.6rem;margin-bottom:2rem;border-radius:12px}.sign svg{width:160px;height:50px;overflow:visible;color:var(--neon);filter:drop-shadow(0 0 5px var(--neon-glow))}.sign::after{content:"";position:absolute;top:calc(100% + 9px);left:9%;right:9%;height:10px;border-radius:50%;background:var(--neon-glow);filter:blur(9px);opacity:.4}
+.logo i{background:var(--ink)}.phones{gap:1.1rem;max-width:345px;justify-self:center;width:100%;padding:0 .4rem}.screen{position:relative;padding-top:1.5rem;border-width:5px;box-shadow:0 14px 24px var(--shadow);aspect-ratio:9/14}.screen::before{content:"";position:absolute;left:35%;right:35%;top:5px;height:6px;border-radius:9px;background:var(--device-edge)}.phone:first-child{transform:rotate(-4deg)}.phone:last-child{transform:rotate(3deg)}.screen .img.sea{background:url('assets/cape-aura.webp') center/cover}.screen .price{color:var(--fg)}
+section .wrap{padding-block:5rem}.sec-head{max-width:780px;margin-bottom:2.75rem}.sectors{gap:1rem}.sector{border-radius:10px}.sector ul{line-height:1.65}.sector .ic svg{stroke-width:1.6}
+#work{background:var(--panel)}.work{grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem}.case{border-radius:12px;background:var(--bg);box-shadow:0 6px 20px var(--shadow);transition:transform .22s,box-shadow .22s}.frame{position:relative;border-bottom:0}.frame .chrome{padding:.6rem .8rem}.frame .shot{display:block;padding:0;aspect-ratio:16/10;overflow:hidden;background:var(--line)}.frame .shot img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s}.shot img[src*="expandable-homes"]{object-fit:contain;background:var(--panel)}.shot img[src*="artessy"]{object-fit:contain;background:var(--panel)}.project-preview img[src*="artessy"]{object-fit:contain;background:var(--panel)}.case .body{padding:1.5rem;gap:.6rem}.case h3{font-size:1.4rem}.case .where{color:var(--accent)}.case .did{font-size:.98rem}.case .visit{margin-top:.5rem}.case:last-child{box-shadow:none;border-color:var(--accent);background:var(--accent-soft)}
+.days{position:relative;border:0;gap:1rem;background:none;overflow:visible}.day{position:relative;border:1px solid var(--line);border-radius:12px;padding-top:2rem;background:var(--panel)}.day::before{content:"";height:4px;position:absolute;left:1.4rem;right:1.4rem;top:.85rem;background:var(--accent);border-radius:9px}.day:last-child{border-right:1px solid var(--line)}
+.packs{padding-top:1rem}.pack.hi{position:relative;transform:translateY(-8px);box-shadow:0 16px 36px var(--shadow);border-width:2px}.recommended{display:inline-block;position:absolute;top:-.8rem;left:1.5rem;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;font-weight:600;background:var(--accent);color:var(--accent-fg);padding:.25rem .7rem;border-radius:99px}.copy.copied{background:var(--accent-soft);color:var(--accent);border-color:var(--accent)}
+@media(hover:hover){.case:hover{transform:translateY(-4px);box-shadow:0 12px 32px var(--shadow)}.case:hover .shot img{transform:scale(1.035)}.sector:hover{border-color:var(--accent)}.sector:hover ul{color:var(--accent)}}
+@media(max-width:900px){.hero .wrap{gap:2rem}.hero .wrap{grid-template-columns:1fr}.hero-visual{grid-template-columns:1.2fr 1fr;align-items:center}.project-preview a:first-child{aspect-ratio:1.6}.phones{max-width:320px}.days{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.hero .wrap{padding-block:2.5rem;gap:2.5rem}.hero-visual{display:contents}.hero .wrap>div:first-child{display:contents}.hero .sign{order:0;justify-self:start;margin-bottom:0}.hero .eyebrow{order:1}.hero h1{order:2}.hero .project-preview{order:3}.hero .lead{order:4;margin-top:0}.hero .cta{order:5;margin-top:0}.hero .phones{order:6}.hero .wrap{row-gap:1.5rem}.project-preview a:first-child{aspect-ratio:1.6}.project-preview{gap:8px}.phones{max-width:300px}.work{grid-template-columns:1fr;gap:1.5rem}.case .body{padding:1.25rem}section .wrap{padding-block:3rem}.sec-head{margin-bottom:1.75rem}.pack.hi{transform:none}.packs{gap:1.5rem}.days{grid-template-columns:1fr}.day{border-right:1px solid var(--line)!important}.sign svg{width:140px}.logo{font-size:1.05rem}header .wrap{gap:.5rem}nav a.btn{padding:.5rem .75rem}.strip b{font-size:1.2rem}}
+/* Actual landing-page previews: show complete captures, with captions outside the image. */
+.project-preview a{display:flex;flex-direction:column;aspect-ratio:auto!important}.project-preview img{height:auto;aspect-ratio:1165/747;object-fit:contain;background:var(--panel)}.project-preview span{position:static;padding:.55rem .8rem;background:var(--glass);font-size:.8rem}.project-preview a:first-child{grid-column:1/-1}
+@media(max-width:600px){.project-preview{grid-template-columns:1fr}.project-preview a{grid-column:1/-1}}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
 </head>
 <body>
 
@@ -221,7 +250,7 @@ footer .wrap{padding-block:2rem;color:var(--muted);font-size:.9rem;display:flex;
 
 <div class="hero" id="top"><div class="wrap">
   <div>
-    <div class="sign" aria-hidden="true"><b>OPEN</b><small>online · 24 hours</small></div>
+    <div class="sign" aria-hidden="true"><svg viewBox="0 0 168 50" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="29" height="40" rx="13"></rect><path d="M48 45V5h15a10 10 0 0 1 0 20H48M104 5H84v40h20M84 24h17M119 45V5l32 40V5"></path></svg><small>online · 24 hours</small></div>
     <div class="eyebrow">Websites · bookings · social media · Cape Town</div>
     <h1 style="margin-top:.75rem">Put the open sign up online.</h1>
     <p class="lead">A shop is only open when the sign is up. Online, that sign is a website people can find, trust and book on at 11 pm. We build it, plus the booking or ordering system and the social media, for Cape Town businesses still running on word of mouth, a Facebook page and a WhatsApp number. You see a mockup of your own site before you pay anything.</p>
@@ -230,6 +259,7 @@ footer .wrap{padding-block:2rem;color:var(--muted);font-size:.9rem;display:flex;
       <small>No payment, no commitment. Live within 7 days once you approve it.</small>
     </div>
   </div>
+<div class="hero-visual"><div class="project-preview"><a href="https://seaviu.co.za/" target="_blank" rel="noopener"><img src="assets/seaviu-landing.webp" alt="SeaViu landing page screenshot" width="1165" height="747" decoding="async" fetchpriority="high"><span>SeaViu</span></a><a href="https://www.artessy.co.za/" target="_blank" rel="noopener"><img src="assets/artessy-landing.webp" alt="Artessy landing page screenshot" width="1165" height="747" decoding="async" loading="lazy"><span>Artessy</span></a><a href="https://www.expandablehomes.co.za/" target="_blank" rel="noopener"><img src="assets/expandable-homes.webp" alt="Expandable Homes landing page screenshot" width="1165" height="747" decoding="async" loading="lazy"><span>Expandable Homes</span></a></div>
   <div class="phones" aria-hidden="true">
     <div class="phone">
       <div class="tag">Today</div>
@@ -254,7 +284,7 @@ footer .wrap{padding-block:2rem;color:var(--muted);font-size:.9rem;display:flex;
       </div>
     </div>
   </div>
-</div></div>
+</div></div></div>
 
 <div class="strip"><div class="wrap">
   <div><b>Mockup first</b><span>You see your site before paying</span></div>
@@ -271,32 +301,32 @@ footer .wrap{padding-block:2rem;color:var(--muted);font-size:.9rem;display:flex;
   </div>
   <div class="sectors">
     <div class="sector">
-      <div class="ic"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18v-7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v7M3 14h18M7 9V7a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"/></svg></div><h3>Guesthouses &amp; B&amp;Bs</h3>
+      <div class="ic"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18v-7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v7M3 14h18M7 9V7a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"></path></svg></div><h3>Guesthouses &amp; B&amp;Bs</h3>
       <p class="pain">Only reachable through Booking.com and Airbnb, paying 15–18% on every stay, including repeat guests.</p>
       <ul><li>Direct booking with real-time availability</li><li>Calendar synced with the OTAs, no double bookings</li><li>Room pages, rates, WhatsApp, Google Maps</li></ul>
     </div>
     <div class="sector">
-      <div class="ic"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v8a2 2 0 0 0 2 2v8M5 3v5M9 3v5M17 3c-2 2-2 6-2 8h2v10"/></svg></div><h3>Restaurants &amp; bars</h3>
+      <div class="ic"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v8a2 2 0 0 0 2 2v8M5 3v5M9 3v5M17 3c-2 2-2 6-2 8h2v10"></path></svg></div><h3>Restaurants &amp; bars</h3>
       <p class="pain">A photo of the menu on Facebook, a phone that rings during service, no way to book a table online.</p>
       <ul><li>Menu that's easy to read on a phone</li><li>Table reservations and event enquiries</li><li>Google Business profile, hours, reviews</li></ul>
     </div>
     <div class="sector">
-      <div class="ic"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h18M12 4 3 20M12 4l9 16M12 4v16M7.5 12h9"/></svg></div><h3>Equipment &amp; party hire</h3>
+      <div class="ic"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h18M12 4 3 20M12 4l9 16M12 4v16M7.5 12h9"></path></svg></div><h3>Equipment &amp; party hire</h3>
       <p class="pain">"Do you have a 6m marquee for Saturday?" on WhatsApp, one customer at a time, all day.</p>
       <ul><li>Catalogue with prices and availability</li><li>Quote and booking requests with dates</li><li>Deposit payments online</li></ul>
     </div>
     <div class="sector">
-      <div class="ic"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 6.5a4 4 0 0 0-5.3 5.3L4 17l3 3 5.2-5.2a4 4 0 0 0 5.3-5.3l-2.5 2.5-2-2z"/></svg></div><h3>Trades &amp; services</h3>
+      <div class="ic"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 6.5a4 4 0 0 0-5.3 5.3L4 17l3 3 5.2-5.2a4 4 0 0 0 5.3-5.3l-2.5 2.5-2-2z"></path></svg></div><h3>Trades &amp; services</h3>
       <p class="pain">Plumbers, electricians, cleaners, tour guides: good work, no site, so the job goes to whoever shows up first on Google.</p>
       <ul><li>One-page site with your areas and services</li><li>Quote form and click-to-WhatsApp</li><li>Reviews pulled in from Google</li></ul>
     </div>
     <div class="sector">
-      <div class="ic"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9h14l-1 11H6zM9 9V7a3 3 0 0 1 6 0v2"/></svg></div><h3>Shops &amp; studios</h3>
+      <div class="ic"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9h14l-1 11H6zM9 9V7a3 3 0 0 1 6 0v2"></path></svg></div><h3>Shops &amp; studios</h3>
       <p class="pain">Products that sell in the shop and on Instagram, but nowhere a customer can browse the whole range or order.</p>
       <ul><li>Product gallery with enquiry or order buttons</li><li>Meta product catalogue for Instagram and Facebook</li><li>WhatsApp orders and payment links</li></ul>
     </div>
     <div class="sector">
-      <div class="ic"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M9 5h6M12 7c-4 3-5 7-5 10h10c0-3-1-7-5-10zM8 17v4h8v-4"/></svg></div><h3>Funeral homes</h3>
+      <div class="ic"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M9 5h6M12 7c-4 3-5 7-5 10h10c0-3-1-7-5-10zM8 17v4h8v-4"></path></svg></div><h3>Funeral homes</h3>
       <p class="pain">Families search at 2 a.m. and need to reach someone, see what you offer and know what it costs, without being sold to.</p>
       <ul><li>Calm, clear site with 24-hour contact</li><li>Services, packages and pricing explained plainly</li><li>Obituary and service notice pages</li></ul>
     </div>
@@ -306,29 +336,29 @@ footer .wrap{padding-block:2rem;color:var(--muted);font-size:.9rem;display:flex;
 <section id="work"><div class="wrap">
   <div class="sec-head">
     <div class="eyebrow">Work</div>
-    <h2>Five sites live, all taking enquiries and bookings directly</h2>
+    <h2>From our work, all taking enquiries and bookings directly</h2>
     <p class="muted">Open them on your phone; that's where your customers will see yours.</p>
   </div>
   <div class="work">
-    <a class="case" href="https://capeaura.co.za" target="_blank" rel="noopener">
-      <div class="frame"><div class="chrome"><i></i><i></i><i></i><span>capeaura.co.za</span></div><div class="shot sea"><div></div><div class="cap">Cape Aura</div></div></div>
+    <a class="case" href="https://capeaura.co.za/" target="_blank" rel="noopener">
+      <div class="frame"><div class="chrome"><i></i><i></i><i></i><span>capeaura.co.za</span></div><div class="shot"><img src="assets/cape-aura.webp" alt="Cape Aura pool and guesthouse" width="960" height="600" loading="lazy" decoding="async"></div></div>
       <div class="body"><h3>Cape Aura Camps Bay</h3><div class="where">Six-room guesthouse</div><div class="did">Direct booking, whole-house option, WhatsApp, tours and transfers, curated 67-image gallery.</div><div class="visit">Open site →</div></div>
     </a>
-    <a class="case" href="https://vistablu.co.za" target="_blank" rel="noopener">
-      <div class="frame"><div class="chrome"><i></i><i></i><i></i><span>vistablu.co.za</span></div><div class="shot pool"><div></div><div class="cap">VistaBlu</div></div></div>
+    <a class="case" href="https://vistablu.co.za/" target="_blank" rel="noopener">
+      <div class="frame"><div class="chrome"><i></i><i></i><i></i><span>vistablu.co.za</span></div><div class="shot"><img src="assets/vistablu.webp" alt="VistaBlu pool and mountain view" width="960" height="600" loading="lazy" decoding="async"></div></div>
       <div class="body"><h3>VistaBlu Camps Bay</h3><div class="where">Seven-room guesthouse</div><div class="did">Direct rates below the OTA price, room-by-room pages, booking requests straight to WhatsApp.</div><div class="visit">Open site →</div></div>
     </a>
-    <a class="case" href="https://seaviu.co.za" target="_blank" rel="noopener">
-      <div class="frame"><div class="chrome"><i></i><i></i><i></i><span>seaviu.co.za</span></div><div class="shot sun"><div></div><div class="cap">SeaViu</div></div></div>
+    <a class="case" href="https://seaviu.co.za/" target="_blank" rel="noopener">
+      <div class="frame"><div class="chrome"><i></i><i></i><i></i><span>seaviu.co.za</span></div><div class="shot"><img src="assets/seaviu.webp" alt="SeaViu pool and guesthouse" width="960" height="600" loading="lazy" decoding="async"></div></div>
       <div class="body"><h3>SeaViu Camps Bay</h3><div class="where">Seven-bedroom boutique guesthouse</div><div class="did">Live since October 2026. Booking enquiry form, WhatsApp, Google Maps, sunset photography direction.</div><div class="visit">Open site →</div></div>
     </a>
-    <a class="case" href="https://www.artessy.co.za" target="_blank" rel="noopener">
-      <div class="frame"><div class="chrome"><i></i><i></i><i></i><span>artessy.co.za</span></div><div class="shot wood"><div></div><div class="cap">Artessy</div></div></div>
+    <a class="case" href="https://www.artessy.co.za/" target="_blank" rel="noopener">
+      <div class="frame"><div class="chrome"><i></i><i></i><i></i><span>artessy.co.za</span></div><div class="shot"><img src="assets/artessy.webp" alt="Artessy handcrafted furniture" width="960" height="600" loading="lazy" decoding="async"></div></div>
       <div class="body"><h3>Artessy Furniture Studio</h3><div class="where">Handcrafted furniture, Cape Town</div><div class="did">Gallery-led site, custom-order flow, WhatsApp sales, Meta product catalogue, Instagram content.</div><div class="visit">Open site →</div></div>
     </a>
-    <a class="case" href="#contact">
-      <div class="frame"><div class="chrome"><i></i><i></i><i></i><span>Expandable Homes SA</span></div><div class="shot home"><div></div><div class="cap">Expandable Homes</div></div></div>
-      <div class="body"><h3>Expandable Homes SA</h3><div class="where">Modular homes and domes, Hout Bay</div><div class="did">Model pages with specs and pricing, WhatsApp enquiries, campaigns on Instagram, Facebook and TikTok.</div><div class="visit">Ask for the link →</div></div>
+    <a class="case" href="https://www.expandablehomes.co.za/" target="_blank" rel="noopener">
+      <div class="frame"><div class="chrome"><i></i><i></i><i></i><span>Expandable Homes SA</span></div><div class="shot"><img src="assets/expandable-homes.webp" alt="Expandable Homes website preview" width="960" height="600" loading="lazy" decoding="async"></div></div>
+      <div class="body"><h3>Expandable Homes SA</h3><div class="where">Modular homes and domes, Hout Bay</div><div class="did">Model pages with specs and pricing, WhatsApp enquiries, campaigns on Instagram, Facebook and TikTok.</div><div class="visit">Open site →</div></div>
     </a>
     <div class="case" style="border-style:dashed;align-content:center;justify-items:center;text-align:center;padding:2rem;gap:.75rem">
       <h3>Your business here</h3>
@@ -366,7 +396,7 @@ footer .wrap{padding-block:2rem;color:var(--muted);font-size:.9rem;display:flex;
       <div class="price">R 8,500 <small>once</small></div>
       <ul><li>One-page or small multi-page site</li><li>Your services, prices, photos, location</li><li>WhatsApp button and enquiry form</li><li>Fast on mobile, listed on Google</li><li>Domain and hosting set up in your name</li></ul>
     </div>
-    <div class="pack hi">
+    <div class="pack hi"><span class="recommended">Most chosen</span>
       <h3>Website + bookings or orders</h3>
       <div class="for">For businesses that take bookings, quotes or orders</div>
       <div class="price">R 15,000 <small>once</small></div>
@@ -408,8 +438,8 @@ footer .wrap{padding-block:2rem;color:var(--muted);font-size:.9rem;display:flex;
     <div class="field"><label for="share">Bookings you could move to your own site (%)</label><input id="share" type="number" min="0" max="100" value="30"></div>
     <div class="result">
       <small>Commission you keep per year</small>
-      <b id="saved">R 97,000</b>
-      <small id="detail">on R 649,000 of bookings moved direct</small>
+      <b id="saved">R 97&nbsp;565</b>
+      <small id="detail">on R 650&nbsp;430 of bookings moved direct</small>
     </div>
   </form>
 </div></div>
@@ -439,8 +469,8 @@ footer .wrap{padding-block:2rem;color:var(--muted);font-size:.9rem;display:flex;
   <div class="contact">
     <h3>Get your free mockup</h3>
     <p class="muted">Send us your business name and where you are. We'll reply with a preview within a few days.</p>
-    <div class="row"><code id="wa">+27 72 507 3392</code><button class="copy" data-copy="wa" type="button">Copy</button></div>
-    <div class="row"><code id="em">hello@opensign.co.za</code><button class="copy" data-copy="em" type="button">Copy</button></div>
+    <div class="row"><code id="wa">+27 72 507 3392</code><button aria-live="polite" class="copy" data-copy="wa" type="button">Copy</button></div>
+    <div class="row"><code id="em">hello@opensign.co.za</code><button aria-live="polite" class="copy" data-copy="em" type="button">Copy</button></div>
     <a class="btn primary" href="https://wa.me/27725073392?text=Hi%2C%20I%20run%20a%20business%20in%20Cape%20Town%20and%20would%20like%20a%20free%20mockup%20of%20a%20website." target="_blank" rel="noopener">Message on WhatsApp</a>
   </div>
 </div></section>
@@ -467,13 +497,11 @@ footer .wrap{padding-block:2rem;color:var(--muted);font-size:.9rem;display:flex;
   document.querySelectorAll('.copy').forEach(function(b){
     b.addEventListener('click',function(){
       var el=document.getElementById(b.dataset.copy), t=el.textContent;
-      var done=function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy';},1500);};
+      var done=function(){b.textContent='Copied';b.classList.add('copied');setTimeout(function(){b.textContent='Copy';b.classList.remove('copied');},1500);};
       if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,function(){sel(el);});}else{sel(el);}
     });
   });
   function sel(el){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);}
 })();
 </script>
-
-</body>
-</html>
+</body></html>
