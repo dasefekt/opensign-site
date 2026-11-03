@@ -2,7 +2,7 @@
 <html lang="en"><head><meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Open Sign builds websites, booking systems and social media for Cape Town guesthouses, restaurants, hire companies and small businesses. Free mockup first, live in 7 days.">
+<meta name="description" content="Open Sign builds websites, booking systems, listing photos and social media for Cape Town guesthouses, hotels, restaurants, hire companies and small businesses. Free mockup first, live in 7 days.">
 <title>Open Sign</title>
 <link rel="preconnect" href="https://fonts.googleapis.com/">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Figtree:wght@400;500;600&display=swap">
@@ -173,6 +173,15 @@ section .wrap{padding-block:4rem}
 .addon{margin-top:1.25rem;border:1px solid var(--line);border-radius:14px;padding:1.5rem;background:var(--accent-soft);display:grid;grid-template-columns:1fr auto;gap:1.5rem;align-items:center}
 .addon h3{margin:.4rem 0 .5rem}.addon .addon-price{display:grid;gap:.35rem;justify-items:end;text-align:right;white-space:nowrap}
 @media(max-width:820px){.addon{grid-template-columns:1fr}.addon .addon-price{justify-items:start;text-align:left;white-space:normal}}
+.addon .btn{white-space:nowrap;justify-self:end}
+@media(max-width:820px){.addon .btn{justify-self:start}}
+.photo-grid{display:grid;grid-template-columns:1fr 1fr 1.1fr;gap:1.25rem;align-items:stretch;padding-top:1rem}
+.photo-shot{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--panel);display:grid;grid-template-rows:1fr auto;min-width:0}
+.photo-shot img{display:block;width:100%;height:100%;min-height:260px;object-fit:cover}
+.photo-shot figcaption{padding:.6rem .9rem;font-size:.85rem;color:var(--muted)}
+.photo-note{margin-top:1.25rem;font-size:.95rem}
+@media(max-width:960px){.photo-grid{grid-template-columns:1fr 1fr}.photo-shot{grid-column:1/-1}.photo-shot img{aspect-ratio:16/9;min-height:0}}
+@media(max-width:640px){.photo-grid{grid-template-columns:1fr}}
 .tablewrap{overflow-x:auto;margin-top:2rem;border:1px solid var(--line);border-radius:14px;background:var(--panel)}
 table{border-collapse:collapse;width:100%;min-width:640px;font-size:.95rem}
 th,td{text-align:left;padding:.8rem 1rem;border-bottom:1px solid var(--line);vertical-align:top}
@@ -248,13 +257,13 @@ section .wrap{padding-block:5rem}.sec-head{max-width:780px;margin-bottom:2.75rem
 
 <header><div class="wrap">
   <a class="logo" href="#top"><i>OPEN</i>Open Sign</a>
-  <nav><a href="#sectors">Who it's for</a><a href="#work">Work</a><a href="#process">7 days</a><a href="#packages">Prices</a><a class="btn primary" href="#contact">Free mockup</a></nav>
+  <nav><a href="#sectors">Who it's for</a><a href="#work">Work</a><a href="#process">7 days</a><a href="#packages">Prices</a><a href="#photos">Photos</a><a class="btn primary" href="#contact">Free mockup</a></nav>
 </div></header>
 
 <div class="hero" id="top"><div class="wrap">
   <div>
     <div class="sign" aria-hidden="true"><svg viewBox="0 0 168 50" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="29" height="40" rx="13"></rect><path d="M48 45V5h15a10 10 0 0 1 0 20H48M104 5H84v40h20M84 24h17M119 45V5l32 40V5"></path></svg><small>online · 24 hours</small></div>
-    <div class="eyebrow">Websites · bookings · social media · Cape Town</div>
+    <div class="eyebrow">Websites · bookings · photos · social media · Cape Town</div>
     <h1 style="margin-top:.75rem">Put the open sign up online.</h1>
     <p class="lead">A shop is only open when the sign is up. Online, that sign is a website people can find, trust and book on at 11 pm. We build it, plus the booking or ordering system and the social media, for Cape Town businesses still running on word of mouth, a Facebook page and a WhatsApp number. You see a mockup of your own site before you pay anything.</p>
     <div class="cta">
@@ -306,7 +315,7 @@ section .wrap{padding-block:5rem}.sec-head{max-width:780px;margin-bottom:2.75rem
     <div class="sector">
       <div class="ic"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18v-7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v7M3 14h18M7 9V7a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"></path></svg></div><h3>Guesthouses &amp; B&amp;Bs</h3>
       <p class="pain">Only reachable through Booking.com and Airbnb, paying 15–18% on every stay, including repeat guests.</p>
-      <ul><li>Direct booking with real-time availability</li><li>Calendar synced with the OTAs, no double bookings</li><li>Room pages, rates, WhatsApp, Google Maps</li></ul>
+      <ul><li>Direct booking with real-time availability</li><li>Calendar synced with the OTAs, no double bookings</li><li>Room pages, rates, WhatsApp, Google Maps</li><li>Better photos on Booking.com and Airbnb, with or without a site</li></ul>
     </div>
     <div class="sector">
       <div class="ic"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v8a2 2 0 0 0 2 2v8M5 3v5M9 3v5M17 3c-2 2-2 6-2 8h2v10"></path></svg></div><h3>Restaurants &amp; bars</h3>
@@ -414,11 +423,11 @@ section .wrap{padding-block:5rem}.sec-head{max-width:780px;margin-bottom:2.75rem
   </div>
   <div class="addon">
     <div>
-      <div class="eyebrow">Add-on</div>
-      <h3>Photo shoot at your place</h3>
-      <p class="muted">Most sites fail on the photos, not the words. Every package includes editing the photos you already have. If they are too dark, too few or no longer true to the place, our photographer comes to you: half a day in and around Cape Town, 30 edited photos delivered within 48 hours, yours to use on Booking.com, Google and social media as well.</p>
+      <div class="eyebrow">Hotels and guesthouses</div>
+      <h3>Only need better photos?</h3>
+      <p class="muted">The photo package works on its own, without a website: we edit or reshoot your photos and put them on your Booking.com, Airbnb and Google listings.</p>
     </div>
-    <div class="addon-price"><div class="price">R 3,900 <small>half day</small></div><small class="muted">Full day R 6,500 · drone shots on request</small></div>
+    <a class="btn" href="#photos">See the photo package</a>
   </div>
   <div class="tablewrap">
     <table>
@@ -433,6 +442,33 @@ section .wrap{padding-block:5rem}.sec-head{max-width:780px;margin-bottom:2.75rem
       </tbody>
     </table>
   </div>
+</div></section>
+
+<section id="photos"><div class="wrap">
+  <div class="sec-head">
+    <div class="eyebrow">Photo package · hotels and guesthouses</div>
+    <h2>Guests book the photos first</h2>
+    <p class="muted">On Booking.com and Airbnb, a dark first photo or a gallery of phone snapshots loses the booking before anyone reads the reviews. You can order this on its own, without a website. We never change what the place looks like: only light, colour, angles and clutter.</p>
+  </div>
+  <div class="photo-grid">
+    <div class="pack">
+      <h3>Photo refresh</h3>
+      <div class="for">Enough photos, but dark, flat, crooked or badly ordered</div>
+      <div class="price">R 2,500 <small>once</small></div>
+      <ul><li>Up to 40 of your existing photos edited: light, colour, straightened, cropped</li><li>Passing clutter removed: cars, bins, cables, toiletries</li><li>Gallery re-ordered so the best room and view come first</li><li>New set uploaded to Booking.com, Airbnb, Google and Expedia, with captions</li><li>Ready within 3 working days</li></ul>
+    </div>
+    <div class="pack hi"><span class="recommended">New photos</span>
+      <h3>Photo shoot</h3>
+      <div class="for">Too few photos, or photos that no longer match the place</div>
+      <div class="price">R 3,900 <small>half day</small></div>
+      <ul><li>Our photographer at your place, in and around Cape Town</li><li>Rooms, bathrooms, pool, views, breakfast and details</li><li>30 edited photos within 48 hours</li><li>Uploaded to your listings; yours to use on your site and social media too</li><li>Full day R 6,500 · drone shots on request</li></ul>
+    </div>
+    <figure class="photo-shot">
+      <img src="assets/cape-aura.webp" alt="Sea-view guesthouse photo from a client site" width="960" height="720" loading="lazy" decoding="async">
+      <figcaption>From a client site: Cape Aura Camps Bay</figcaption>
+    </figure>
+  </div>
+  <p class="muted photo-note">Taking a website package as well? Editing your existing photos is already included in it.</p>
 </div></section>
 
 <div class="band" id="maths"><div class="wrap">
@@ -462,7 +498,7 @@ section .wrap{padding-block:5rem}.sec-head{max-width:780px;margin-bottom:2.75rem
   </div>
   <div class="faq">
     <details><summary>Who owns the website and the domain?</summary><p>You do. The domain is registered in your business name, the hosting account is yours, and you get every login at go-live. If you ever stop working with us, everything stays with you.</p></details>
-    <details><summary>What do I need to send you?</summary><p>Photos (phone photos are fine; we edit them), your prices or rates, opening hours, and your WhatsApp number. We send a short checklist. If you have no photos at all, we can arrange a half-day shoot at extra cost.</p></details>
+    <details><summary>What do I need to send you?</summary><p>Photos (phone photos are fine; we edit them), your prices or rates, opening hours, and your WhatsApp number. We send a short checklist. If you have no usable photos, our photographer can come to you (see the photo package).</p></details>
     <details><summary>What if I don't like the mockup?</summary><p>You owe nothing. The mockup is ours to build and yours to reject. If you like the direction but want changes, we make them before you pay anything.</p></details>
     <details><summary>Can I still use Booking.com, Airbnb or Dineplan?</summary><p>Yes, and you should. Your own site adds a channel where you keep the full price; it doesn't replace the others. For guesthouses we sync the calendar so a room booked on your site is blocked on the OTAs within minutes.</p></details>
     <details><summary>How are payments handled?</summary><p>Half of the package price when you approve the mockup, half at go-live. For your customers' payments we set up a South African payment provider in your name; the money goes to your account, never through ours.</p></details>
