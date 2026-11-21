@@ -2,6 +2,9 @@
 <html lang="en"><head><meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FNF95XVV2B"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-FNF95XVV2B');</script>
 <meta name="description" content="Open Sign builds websites, booking systems, listing photos and social media for Cape Town guesthouses, hotels, restaurants, hire companies and small businesses. Free mockup first, live in 7 days.">
 <title>Open Sign</title>
 <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -550,5 +553,14 @@ section .wrap{padding-block:5rem}.sec-head{max-width:780px;margin-bottom:2.75rem
   });
   function sel(el){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);}
 })();
+</script>
+<script>
+/* Analytics (GA4): WhatsApp, phone and email links count as leads. */
+document.addEventListener('click',function(e){
+  var a=e.target&&e.target.closest?e.target.closest('a[href]'):null; if(!a||typeof window.gtag!=='function')return;
+  var h=a.getAttribute('href')||'';
+  var m=/^https:\/\/(api\.)?wa\.me\//.test(h)?'whatsapp':h.indexOf('tel:')===0?'phone':h.indexOf('mailto:')===0?'email':'';
+  if(m){try{window.gtag('event','generate_lead',{method:m});}catch(err){}}
+});
 </script>
 </body></html>

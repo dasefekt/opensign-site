@@ -21,7 +21,7 @@ You are taking over `index.html`, a one-page presentation site for **Open Sign**
 3. Keep all copy as is unless you are fixing grammar. Keep the section order: header → hero → trust strip → Who it's for → Work → How it works (7 days) → Prices (+ per-trade table) → guesthouse commission example → FAQ → About/Contact → footer.
 4. Contact placeholders stay until replaced: WhatsApp `+27 72 507 3392` (will change), email `hello@opensign.co.za`.
 5. Mobile first: must work at 360–400 px wide with no horizontal scroll; keep the 16 px side gutters and `env(safe-area-inset-*)` paddings; keep `prefers-reduced-motion` handling; keep visible focus states.
-6. Single file is preferred (inline CSS/JS). If you split files, keep relative paths. No frameworks needed; no tracking scripts.
+6. Single file is preferred (inline CSS/JS). If you split files, keep relative paths. No frameworks needed. The only tracking script is Google Analytics 4 (measurement ID G-FNF95XVV2B, property "Open Sign" p565396243 in the "Business Websites" account), added at the owner's request on 21 Nov 2026: keep the Google tag in the `<head>` and the small lead-click script at the end of the page, and add no other tracking.
 7. Images: use real photos only where the owner supplies them (see below). Until then, keep placeholders as CSS gradients; never pull stock photos of real businesses or copyrighted logos.
 
 ## What to improve (in priority order)
